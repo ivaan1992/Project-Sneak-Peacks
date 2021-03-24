@@ -1,0 +1,204 @@
+#main-content
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+    #main-content .article,
+    #main-content .title-image{
+        width: 50%;
+        text-align: justify;
+        font-family: ;
+    }
+    #main-content .title-image img{
+        width: 100%;
+    }
+.lines{
+    width: 100%;
+    height: 10px;
+    background:white;
+    background-position: right;
+    text-align: center;
+
+}    
+
+.color
+{
+font-size: 15px;
+color: #545454;
+}
+.beginning{
+font-style: italic;
+font-family: Georgia, 'Times New Roman', Times, serif
+}
+.beginning button{
+    width: 80px;
+    height: 30px;
+    color:black;
+}
+#beginning .beginning-button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.menu-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    width: 10rem;
+}
+.menu{
+    width: 100px;
+}
+#title img{
+    margin-right: 1rem;
+}
+
+.buscar {
+    width: 100px;
+}
+
+.texto {
+    width: 100px;
+    font-weight: bold;
+}
+#buttons{
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#buttons button{
+    border: 0;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    color: white;
+    background-color: #567b95;
+    border: 1px solid #326891;
+
+    cursor: pointer;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background:#ccc;
+}
+
+.title-article{
+    margin: 2rem auto;
+    width: 450px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+#social-media{
+    margin: 1rem auto;
+    width: 600%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+    #social-media .social-button{
+        border: 0;
+        cursor: pointer;
+        background-color: lightgray;
+        background-size: 1.5rem auto;
+        transition: all .2s;
+    }
+    #social-media .social-button:hover{
+        background-color: transparent;
+        border: 1px solid lightgray;
+    }
+
+.Facebook{
+    background: #ccc;
+    background-image: url(facebook.png);
+    background-size: 2rem auto;
+    background-position: center;  
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    outline: none;
+    
+}
+
+.Whatsapp {
+    background: #ccc;
+    background-image: url(whatsapp.png);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.Twitter {
+    background: #ccc;
+    background-image: url(twitter.png);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.Email{
+    background-image: url(email.png);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.Share{
+    background-image: url(share.png);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+}
+
+#social-media .Guardar{
+    background-image: url(guardar.png);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    background-color: transparent;
+
+}
+
+#social-media .Comentarios{
+    background-image: url(comentarios.png);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    border-image-width: 50%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    background-color: transparent;
+}
